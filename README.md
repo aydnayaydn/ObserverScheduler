@@ -55,6 +55,7 @@ ObserverScheduler/
 - **Docker** and **Docker Compose** (for containerized deployment)
 - **PostgreSQL** (version 12 or later)
 - **MongoDB** (version 4.4 or later)
+- **VS Code with Dev Containers extension** (optional, for devcontainer support)
 
 ## Installation & Setup
 
@@ -98,6 +99,16 @@ dotnet ef database update
 ```
 
 ### 5. Build and Run
+
+#### Using Dev Container (Recommended)
+
+This project supports VS Code Dev Containers for a consistent development environment. If you have Docker and the Dev Containers extension installed:
+
+1. Open the project in VS Code
+2. Click "Reopen in Container" when prompted (or use Command Palette: "Dev Containers: Reopen in Container")
+3. The container will automatically set up the .NET environment with all dependencies
+
+This ensures all developers work with the same .NET version, tools, and configurations.
 
 #### Using .NET CLI:
 
